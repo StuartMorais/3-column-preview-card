@@ -1,0 +1,98 @@
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 1rem;
+    width: 60rem;
+    background-color: hsl(0, 0%, 95%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container{ 
+    display: flex;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box{
+    padding: 1rem 2rem 2rem;
+    display: flex;
+    border-radius: 1.2rem;
+    color: var(--Transparentwhite);
+    height: 28rem;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+
+    color: white;
+    padding: 1rem 0rem;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0rem;
+    line-height: 25px;
+}
+
+
+.sedan{
+    padding: 3rem;
+    background-color: var(--Brightorange);
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.suv{
+    padding: 3rem;
+    background-color: var(--Darkcyan);
+}
+
+.luxury{
+    padding: 3rem;
+    background-color: var(--Verydarkcyan);
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+button{
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+button.Bsedan{
+    color: var(--Brightorange);
+    border: 0;
+    background-color: var(--Verylightgray);
+    border-radius: 1.5rem;
+}
+
+button.Bsuv{
+    color: var(--Darkcyan);
+    border: 0;
+    background-color: var(--Verylightgray);
+    border-radius: 1.5rem;
+}
+
+button.Bluxury{
+    color: var(--Verydarkcyan);
+    border: 0;
+    background-color: var(--Verylightgray);
+    border-radius: 1.5rem;
+}
